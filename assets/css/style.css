@@ -1,11 +1,8 @@
-/* Import fonts */
-
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body {
 	background: #fff;
 	margin: 0;
 	color: #ffffff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -14,14 +11,14 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
 p {
 	padding: 0;
 	margin-bottom: 12px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 28px;
