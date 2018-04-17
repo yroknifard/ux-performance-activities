@@ -1,8 +1,8 @@
 body {
-	background: #fff;
-	margin: 0;
-	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -11,149 +11,149 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
 }
 
 p {
-	padding: 0;
-	margin-bottom: 12px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 28px;
-	color: #666;
-	margin-top: 10px;
+  padding: 0;
+  margin-bottom: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #666;
+  margin-top: 10px;
 }
 
 .centered {
-	text-align: center
+  text-align: center;
 }
 
 .mt {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .mb {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .mtb {
-	margin-top: 50px;
-	margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mtb2 {
-	margin-top: 100px;
-	margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .ptb {
-	padding-top: 80px;
-	padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 /* HEADER SECTION */
 
 #header h1 {
-	font-weight: 900;
-	color: #03C9A9;
-	font-size: 90px;
+  font-weight: 900;
+  color: #03c9a9;
+  font-size: 90px;
 }
 
 #header h2 {
-	color: #1BA39C;
+  color: #1ba39c;
 }
 
 /* CALL TO ACTION SECTION */
 
 #cta {
-	padding-bottom: 15px;
-	padding-top: 15px;
-	background: #2f2f2f;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background: #2f2f2f;
 }
 
 #cta p {
-	color: #f2f2f2;
-	font-size: 16px;
+  color: #f2f2f2;
+  font-size: 16px;
 }
 
 /* White Section */
 
 #white {
-	padding-bottom: 50px;
-	padding-top: 50px;
-	color: #bfbfbf
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: #bfbfbf;
 }
 
 /* Green Section */
 
 #green {
-	padding-bottom: 50px;
-	padding-top: 50px;
-	background: #03C9A9;
-	color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: #03c9a9;
+  color: white;
 }
 
 #green h1 {
-	font-size: 80px;
-	font-weight: 700;
-	text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
 }
 
 #green p {
-	color: white;
-	font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 /* Red Section */
 
 #red {
-	background: #F62459;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	color: white;
+  background: #f62459;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: white;
 }
 
 #red h1 {
-	font-size: 80px;
-	font-weight: 700;
-	text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
 }
 
 #red p {
-	color: white;
-	font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 /* Blue Section */
 
 #blue {
-	background: #19B5FE;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	color: white;
+  background: #19b5fe;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: white;
 }
 
 #blue h1 {
-	font-size: 80px;
-	font-weight: 700;
-	text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
 }
 
 #blue p {
-	color: white;
-	font-size: 16px;
+  color: white;
+  font-size: 16px;
 }
 
 /* FOOTER Section */
 
 #footer {
-	padding-bottom: 50px;
-	padding-top: 50px;
-	background: #010101;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: #010101;
 }
 
 #footer h3 {
-	color: white;
+  color: white;
 }

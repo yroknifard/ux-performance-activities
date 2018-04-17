@@ -2,168 +2,222 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<title>UX/UI Performance</title>
+  <title>UX/UI Performance</title>
 
-	<!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	  crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-	<!-- Custom styles for this template -->
-	<link href="assets/css/style.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-	<!-- Bootstrap scripts -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	  crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	  crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	  crossorigin="anonymous"></script>
- 
-	<!-- External font libraries -->
-	<script http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css rel="stylesheet"></script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- External font libraries -->
+  <script http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css rel="stylesheet"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!-- Janky Scroll-->
+  <script src="assets/js/jankyscroll.js"></script>
 </head>
 
 <body>
 
-	<!--  ********** HEADER SECTION ********** -->
-	<div id="header">
-		<div class="row centered">
-			<img src="assets/img/header.jpg" width="100%" height="100%">
+  <!--  ********** HEADER SECTION ********** -->
+  <div id="header">
+    <div class="row centered">
+      <img src="assets/img/header.jpg" width="100%" height="100%">
+    </div>
+    <!--/row -->
+  </div>
+  <!--/header-->
+
+  <!--  ********** WHITE SECTION ********** -->
+  <div id="white">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-md text-center">
+          <h1>THIS SITE IS SUPER JANKY</h1>
+          <br/>
+        </div>
+        <!--col-md-8 -->
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/w -->
+
+  <!--  ********** GREEN SECTION ********** -->
+  <div id="green">
+    <div class="container">
+      <div class="row mt">
+        <div class="col-md-6 centered">
+          <img src="assets/img/http.jpg" class="img-responsive aligncenter" width="400" alt="" data-effect="slide-left">
+        </div>
+        <!--/col-md-6 -->
+
+        <div class="col-md-4">
+          <h1>1</h1>
+          <p>Currently we are making a ton of HTTP requests. Let's figure out what they are for and if we
+            can eliminate any that are unnecessary.</p>
+        </div>
+        <!--/col-md-4 -->
+
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/G -->
+
+  <!--  ********** CTA SECTION ********** -->
+  <div id="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-md centered">
+          <h1>Let's Make It Fast!</h1>
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/CTA -->
+
+  <!--  ********** RED SECTION ********** -->
+  <div id="red">
+    <div class="container">
+      <div class="row mt">
+        <div class="col-md-4">
+          <h1>2</h1>
+          <p>There are a few images on this page that might not be scaled appropriately as well as a janky
+            header image (maybe make it a backround in css?). Let's take a look at them and see if we
+            can resize them.</p>
+        </div>
+        <!--/col-md-4 -->
+        <div class="col-md-6 centered">
+          <img src="assets/img/users.jpg" class="img-responsive aligncenter" width="400" alt="">
+        </div>
+        <!--/col-md-6 -->
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/R -->
+
+  <!--  ********** CTA SECTION ********** -->
+  <div id="cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <h1>What Else Can We Fix?</h1>
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/CTA -->
+
+  <!--  ********** BLUE SECTION ********** -->
+  <div id="blue">
+    <div class="container">
+      <div class="row mt">
+        <div class="col-md-6 centered">
+          <img src="assets/img/library.jpg" class="img-responsive aligncenter" width="400" alt="" data-effect="slide-left">
+        </div>
+        <!--/col-md-6 -->
+
+        <div class="col-md-4">
+          <h1>3</h1>
+          <p>There seem to be quite a few libraries being used in our site? Let's identify whether they
+            contribute or hinder the user experience.</p>
+        </div>
+        <!--/col-md-4 -->
+
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/B -->
+
+	<!-- Photo Gallery -->
+	<div class="container">
+  <div class="card-columns">
+		<div class="card">
+			<img class="card-img-top" src="assets/img/pic1.jpg" alt="Card image cap">
 		</div>
-		<!--/row -->
-	</div>
-	<!--/header-->
-
-	<!--  ********** WHITE SECTION ********** -->
-	<div id="white">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-md text-center">
-					<h1>THIS SITE IS SUPER JANKY</h1>
-					<br/>
-				</div>
-				<!--col-md-8 -->
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img-top" src="assets/img/pic2.jpg" alt="Card image cap">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/w -->
-
-	<!--  ********** GREEN SECTION ********** -->
-	<div id="green">
-		<div class="container">
-			<div class="row mt">
-				<div class="col-md-6 centered">
-					<img src="assets/img/http.jpg" class="img-responsive aligncenter" width="400" alt="" data-effect="slide-left">
-				</div>
-				<!--/col-md-6 -->
-
-				<div class="col-md-4">
-					<h1>1</h1>
-					<p>Currently we are making a ton of HTTP requests. Let's figure out what they are for and if we can eliminate any that
-						are unnecessary.</p>
-				</div>
-				<!--/col-md-4 -->
-
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img" src="assets/img/pic3.jpg" alt="Card image">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/G -->
-
-	<!--  ********** CTA SECTION ********** -->
-	<div id="cta">
-		<div class="container">
-			<div class="row">
-				<div class="col-md centered">
-					<h1>Let's Make It Fast!</h1>
-				</div>
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img" src="assets/img/pic4.jpg" alt="Card image">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/CTA -->
-
-	<!--  ********** RED SECTION ********** -->
-	<div id="red">
-		<div class="container">
-			<div class="row mt">
-				<div class="col-md-4">
-					<h1>2</h1>
-					<p>There are a few images on this page that might not be scaled appropriately as well as a janky header image (maybe make
-						it a backround in css?). Let's take a look at them and see if we can resize them.</p>
-				</div>
-				<!--/col-md-4 -->
-				<div class="col-md-6 centered">
-					<img src="assets/img/users.jpg" class="img-responsive aligncenter" width="400" alt="" data-effect="slide-right">
-				</div>
-				<!--/col-md-6 -->
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img" src="assets/img/pic5.jpg" alt="Card image">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/R -->
-
-	<!--  ********** CTA SECTION ********** -->
-	<div id="cta">
-		<div class="container">
-			<div class="row">
-				<div class="col-md text-center">
-					<h1>What Else Can We Fix?</h1>
-				</div>
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img" src="assets/img/pic6.jpg" alt="Card image">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/CTA -->
-
-	<!--  ********** BLUE SECTION ********** -->
-	<div id="blue">
-		<div class="container">
-			<div class="row mt">
-				<div class="col-md-6 centered">
-					<img src="assets/img/library.jpg" class="img-responsive aligncenter" width="400" alt="" data-effect="slide-left">
-				</div>
-				<!--/col-md-6 -->
-
-				<div class="col-md-4">
-					<h1>3</h1>
-					<p>There seem to be quite a few libraries being used in our site? Let's identify whether they contribute or hinder the
-						user experience.</p>
-				</div>
-				<!--/col-md-4 -->
-
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img-top" src="assets/img/pic7.jpg" alt="Card image cap">
 		</div>
-		<!--/container -->
-	</div>
-	<!--/B -->
-	<!--  ********** FOOTER SECTION ********** -->
-	<div id="footer">
-		<div class="container">
-			<div class="row mtb">
-				<div class="col-md text-center">
-					<h3>Are We Fast Yet?</h3>
-				</div>
-			</div>
-			<!--/row -->
+		<div class="card">
+			<img class="card-img-top" src="assets/img/pic8.jpg" alt="Card image cap">
 		</div>
-		<!--/container -->
+		<div class="card">
+			<img class="card-img" src="assets/img/pic9.jpg" alt="Card image">
+		</div>
+		<div class="card">
+			<img class="card-img" src="assets/img/pic10.jpg" alt="Card image">
+		</div>
+		<div class="card">
+			<img class="card-img" src="assets/img/pic11.jpg" alt="Card image">
+		</div>
+		<div class="card">
+			<img class="card-img" src="assets/img/pic12.jpg" alt="Card image">
+		</div>
 	</div>
-	<!--/F -->
+	</div>
+	
+  <!--  ********** FOOTER SECTION ********** -->
+  <div id="footer">
+    <div class="container">
+      <div class="row mtb">
+        <div class="col-md text-center">
+          <h3>Are We Fast Yet?</h3>
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container -->
+  </div>
+  <!--/F -->
+
+  <!-- janky scroll -->
+  <script>
+    jankyscroll(400, 50);
+
+  </script>
+
 </body>
 
 </html>
